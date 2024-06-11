@@ -1,0 +1,138 @@
+/* TestManager.css */
+
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+} */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+form button[type="button"] {
+    background: #6c757d;
+}
+
+form button[type="button"]:hover {
+    background: #5a6268;
+}
+
+  
+  .listtest-case- {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .test-case-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  
+  .btn {
+    /* background-color: #ccc; */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* .btn-danger {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+  } */
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* 确保模态框在最前面 */
+  }
+  
+  .modal {
+    left: 50%;
+    top: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    display: block;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .modal-body {
+    margin: 20px 0;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
